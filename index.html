@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Register Your Pier</title>
+</head>
+<body>
+    <h1>Register Your Pier!</h1>
+    <div id="formCont">
+        <label id = 'name-l'>Name of Pier: <input id = "name" type="text" placeholder="Name"></label>
+
+        <label id = 'long-l'>Longitude: <input id = "long" type="number" placeholder="Longitude(num)"></label>
+    
+        <label id = 'lat-l'>Latitude: <input id = "lat" type="number" placeholder="Latitude(num)"></label>
+    
+        <label id = 'fish-l'>Types of fishes at Pier: <input type="text" id = "fishes" placeholder="seperate by commas"></label>
+    
+        <label id = 'pic-l'>Picture of Pier <input id = "pic" type="file"></label>
+
+        <div id = 'show-image'></div>
+
+        <div id = 'btn-l'><input id = "submit" type="submit" onclick="clickMe(event)"></input></div>
+       
+    </div>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    color:aliceblue;
+    border: none;
+}
+html{
+    height: 100%;
+
+}
+body{
+    text-align: center;
+    background: linear-gradient(to top, #00000041, #403e423b), url(fishy.jpeg) no-repeat top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    grid-column-start: 2;
+    grid-column-start: 3;
+    font-size: 4em;
+    color: aliceblue;
+    flex-grow: 1;
+    margin: 0px;
+}
+
+#formCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    flex-grow: 10;
+}
+
+#name-l{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    margin: 10px;
+    height: 40%;
+    width: 60%;
+    font-size: 30px;
+    border-radius: 17px;
+    color:black;
+}
+#long{
+    margin: 10px;
+    height: 30%;
+    width: 60%;
+    font-size: 15px;
+    border-radius: 17px;
+    color:black;
+}
+#lat{
+    margin: 10px;
+    height: 30%;
+    width: 60%;
+    font-size: 15px;
+    border-radius: 17px;
+    color:black;
+}
+#fishes{
+    margin: 10px;
+    height: 30%;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 25px;
+    color:black;
+}
+#pic{
+    margin: 10px;
+    height: 30%;
+    width: 60%;
+    font-size: 15px;
+}
+#show-image{
+    grid-column-start: 3;
+    grid-column-start: 4;
+}
+#long-l{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#lat-l{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pic-l{
+    grid-column-start: 2;
+    grid-column-start: 3;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fish-l{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-l{
+    grid-column-start: 3;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#submit{
+    display: flex;
+    height: 50%;
+    width: 33%;
+    padding: 0px;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    color:black
+}
